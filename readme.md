@@ -35,4 +35,18 @@
    cd self-remembering-app
     ```
 
+# User Interface:
 
+## 1. Self Remembering App Interface
+
+![alt text](SelfRememberingApp.png)
+
+This screenshot shows the Self Remembering App interface where users can input their session aim (e.g., "Git commit check"), select the duration (5 minutes in this case), and see a countdown of the remaining time. An inspirational quote is displayed, and the interface allows users to start, pause, resume, and stop the session.
+
+## 2. Google Calendar Event Notification
+
+![alt text](calendar.png)
+
+The second image shows a Google Calendar event notification. The event is automatically created for the focus session. In this case, a Git commit check event has been created in the calendar, and a notification is shown 5 minutes before the event's start time.
+
+If a user exits or stops the session early before the timer ends, the application updates the calendar event with the actual real-time session end. This ensures that the event in Google Calendar reflects the accurate duration of the session.
